@@ -12,7 +12,13 @@ The LR2021 is Semtech's multi-protocol transceiver of the LoRa family: besides L
 (Fast Long Range Communication, GMSK, up to 2.6 Mbit/s raw). These demos use FLRC to carry ordinary data
 (video, Ethernet frames, TCP/IP) instead of the small sensor packets usually associated with LoRa radios.
 
+![block diagram with photos of the real hardware](docs/photo_block_diagram.png)
+
+<details><summary>Functional block diagram</summary>
+
 ![hardware](docs/hardware_block_diagram.png)
+
+</details>
 
 ## The real bench
 

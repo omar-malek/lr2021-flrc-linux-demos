@@ -44,6 +44,13 @@ SPI, BUSY, RESET, 3.3 V and GND.
 
 ![wiring](docs/wiring.png)
 
+| Luckfox Pico Plus | Luckfox Pico Mini B |
+|---|---|
+| ![Pico Plus wiring](docs/wiring_pico_plus.png) | ![Pico Mini B wiring](docs/wiring_pico_mini_b.png) |
+
+<sub>Board images in these two wiring pictures are product photos from Luckfox and Waveshare, used for identification.
+They are not covered by the MIT license of this repository.</sub>
+
 | Luckfox pin | Linux GPIO | Core2021-HF |
 |---|---|---|
 | 1C0_D | 48 | CS |

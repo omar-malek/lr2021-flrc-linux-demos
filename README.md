@@ -14,6 +14,16 @@ The LR2021 is Semtech's multi-protocol transceiver of the LoRa family: besides L
 
 ![hardware](docs/hardware_block_diagram.png)
 
+## The real bench
+
+| Both nodes | Bench during the TCP/IP demo |
+|---|---|
+| ![boards and wiring](docs/photos/boards_wiring.jpg) | ![bench setup](docs/photos/bench_setup.jpg) |
+
+Top / right: Luckfox Pico Plus (RJ45) with its Core2021-HF module. Bottom / left: Luckfox Pico Mini B with the SC3336 camera
+and its Core2021-HF module. Each module drives a 2.4 GHz antenna through an IPEX-to-SMA pigtail. Flat ribbon jumpers carry
+SPI, BUSY, RESET, 3.3 V and GND.
+
 ## Hardware
 
 | Qty | Part | Role |
